@@ -1,0 +1,8 @@
+2014/01/05 02:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in W:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 W:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 W:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 W:\wamp\www\HomeBuilder\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/homebuilder/index.php?r=gii
+---
